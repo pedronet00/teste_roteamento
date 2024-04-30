@@ -6,6 +6,6 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'PedroNeto\\TesteRoteamento\\' => array($baseDir . '/src'),
+    'app\\' => array($baseDir . '/app'),
     'League\\Plates\\' => array($vendorDir . '/league/plates/src'),
 );
